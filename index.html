@@ -4,6 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>body{
+        display:grid;
+        grid-template-areas: "hd hd hd"
+        "bd bd bd"
+        "ft ft ft";
+        grid-template-rows: 95px 1fr auto;
+        grid-template-columns: 20% 1fr 15%;
+        margin: 0;
+    }
+    .head{
+        grid-area: hd;
+        background-color:#87CEEB;
+    
+    }
+    .body{
+        grid-area: bd;
+        display: grid;
+       
+    
+    }
+    .footer{
+        grid-area: ft;
+        background-color:#87CEEB;
+       
+    
+    }
+    span{
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    
+    .logo{
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    
+    }
+    .logo > div >a> img{
+        height: 33px;
+    }
+    .logo > div{
+        text-align: center;
+        margin: 20px;
+    }
+       
+    .logo > div> p{
+        font-size: 18px;
+        margin: 0;
+        
+    }
+    .classimg{
+        height: 680px;
+       
+        
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    .news{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 6px 20%;
+    }
+    .body>div{
+        text-align: center;
+    }
+    .fot{
+        display:grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        
+    }
+    .news > div{
+        background-color: whitesmoke; padding: 15px 20px; margin: 5px;
+        border-style: dotted;
+    }
+    .snow{
+        margin-top: 15px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .snow>h2{
+        position: absolute;
+        top: 10px;
+        width: 600px;
+        left: 410px;
+        background-color:rgba(72, 61, 139,0.4);
+        
+        color:white
+    }
+    .pg1{
+        width: 400px; 
+        height:300px; 
+        margin-right: 20px;
+        float:left;
+    }
+    .pg12{
+        width: 350px; 
+        
+        float:right;
+        margin:20px;
+    }
+    .pg13{
+        width: 250px; 
+        height:200px; 
+        float:left;
+        margin:20px;
+    }
+    .body>div>span{
+        font-size:20px;
+        
+    }
+    
+    
+    .tx{
+        font-size: 20px;
+        
+    }
+    .pg14{
+        width: 250px; 
+        height:300px; 
+        margin:20px;
+        float:right;
+    }
+    .pg15{
+        width: 250px; 
+        height:300px; 
+        margin:20px;
+        float:left;
+    }
+    .gor{
+        font-size:25px;
+        color:royalblue;
+       
+    }
+    .pggor{
+        width: 380px; 
+        height:220px; 
+        margin:10px;
+        float:left;
+    
+    }
+    .tras{
+        width: 650px; 
+        height:500px; 
+    }
+    .tab{
+        border:1px ;
+        width:800PX; 
+        border-spacing: 10px;
+        margin:auto;
+        font-size: 20px;
+    }
+    .people{
+        width: 380px; 
+        height:220px; 
+    
+    }
+    .grid1{
+        display: grid;
+      grid-template-rows: 1fr  ;
+      grid-template-columns: 1fr 1fr ;
+    margin: 20px;
+    }
+    .newss{
+        display:grid;
+        grid-template-areas: "gi gt";
+        grid-template-columns: 600px 1fr ;
+        grid-gap: 10px;
+        margin: 15px 0;
+    }
+    .content-image{
+        grid-area:gi;
+        margin: 0 0 0 200px;
+    }
+    .content-text{
+        grid-area: gt;
+        text-align:left;
+        margin: 0 200px 0 0;
+    }
+    .news-text{
+        font-size: 20px;
+        
+    }
+    .no-decor{
+        text-decoration: none;
+    }
+    .no-decor > p{
+        font-size:18px; 
+        margin: 0;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .bigtype{
+        position: relative;/* выравнивание по центру картинки*/
+        right: 10px;
+    }</style>
 </head>
 <body>
 
